@@ -1,0 +1,48 @@
+body{
+	margin: $cero;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+.container{
+
+	background: rgba(24, 24, 25, 0.75);
+    padding: 2%;
+    margin-top: 15px;
+    border-radius: 20px;
+
+	.margin-btn{
+		margin-bottom: $cero;
+	}
+	#lugar{
+		font-weight: $negrita;
+		margin: $cero;
+	}
+	#temperatura{
+		margin: $cero;
+	}
+	#clima{
+		p{
+			font-size: 15px;
+			font-weight: $negrita;
+			border-bottom: 1px solid;
+			padding-bottom: 2px;
+		}
+		img{
+			float: left;
+			margin-right: 10px;
+		}
+		span{
+			float:right;
+			font-weight: $negrita;
+		}
+	}
+	#dia1, #dia2, #dia3, #dia4, #dia5{
+	        border-right: 2px solid;
+
+		p , span{
+            font-weight: $negrita;
+		}
+	}
+}
