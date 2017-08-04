@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dark Sky Weather</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="dist/css/style.min.css">
+</head>
+<body>
+    <div class="container">
+    	<div class="row">
+    		<div class="input-field col s6 offset-l1 l5">
+    			<input id="ciudad" type="text" class="validate">
+    			<label for="ciudad">Ciudad</label>
+    		</div>
+    		<div class="input-field col s6 l5">
+    			<input id="pais" type="text" class="validate">
+    			<label for="pais">País</label>
+    		</div>
+    	</div>
+    	<div class="row center">
+    		<div class="col s12 l12">
+    			<a href="#" class="waves-effect waves-light btn center" id="btn-Prediccion"><i class="material-icons left"><i class="material-icons">wb_sunny</i>cloud</i>Predicción del Clima</a>
+    		</div>
+    	</div>
+    	<div class="row center margin-btn desaparecer">
+    		<div class="col s12 offset-l1 l10">
+    		    <h5 id="lugar"></h5>
+    			<h1 id="temperatura"></h1>
+    		</div>
+    	</div>
+    	<div class="row margin-btn desaparecer">
+    		<div class="col s12 offset-l1 l10 " id="clima">
+                <!--AQUI IRAN LOS DATOS DEL CLIMA-->
+    		</div>
+    	</div>
+    	<div class="row margin-btn desaparecer">
+    		<div class="col s3 offset-l1 l2 center" id="dia1">
+    			
+    		</div>
+    		<div class="col s3 l2 center" id="dia2">
+    			
+    		</div>
+    		<div class="col s3 l2 center" id="dia3">
+    			
+    		</div>
+    		<div class="col s3 l2 center" id="dia4">
+    			
+    		</div>
+    		<div class="col l2  hide-on-small-only center" id="dia5">
+    			
+    		</div>
+    	</div>
+    </div>
+	<script src="dist/js/script.js"></script>
+</body>
+</html>
